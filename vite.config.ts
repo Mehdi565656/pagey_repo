@@ -20,6 +20,7 @@ export default defineConfig({
         UserProfile: resolve(root,'UserProfile','index.html'),
         ClassicsPage: resolve(root,'ClassicsPage','index.html'),
         BookProfile: resolve(root,'BookProfile','index.html'),
+        PdfReader: resolve(root,'ReadeBook','index.html'),
       }
     }
   }

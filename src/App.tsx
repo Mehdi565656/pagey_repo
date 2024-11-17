@@ -7,6 +7,7 @@ import SignUp from './SignUp/SignUp'
 import UserProfile from './UserProfile/UserProfile'
 import ClassicsPage from './ClassicsPage/ClassicsPage'
 import BookProfile from './BookProfile/BookProfile'
+import PdfReader from './ReadeBook/PdfReader'
 
 const HeroSection: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const HeroSection: React.FC = () => {
         <Route path="/user-profile" element={<UserProfile />} />
         <Route path="/Classics" element={<ClassicsPage />} />
         <Route path="/book-profile" element={<BookProfile />} />
+        <Route path="/pdf-reader" element={<PdfReader />} />
       </Routes>
     </Router>
   );
