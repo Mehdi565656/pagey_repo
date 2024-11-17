@@ -1,0 +1,5 @@
+body {
+  background: linear-gradient(to bottom, #ebf1f1, #f5f5dc); /* Light grayish blue to light creme beige */
+  height: 100vh; /* Ensure the gradient covers the full viewport height */
+  transition: background 8s ease; /* Optional: Add a transition for smooth fade */
+}
