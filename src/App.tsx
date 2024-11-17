@@ -5,7 +5,7 @@ import BookLibrary from './BookLibrary/BookLibrary'; // Example BookLibrary comp
 import SignInPage from './Signin/SignInPage'
 import SignUp from './SignUp/SignUp'
 import UserProfile from './UserProfile/UserProfile'
-
+import ClassicsPage from './ClassicsPage/ClassicsPage'
 const HeroSection: React.FC = () => {
   return (
     <Router> {/* Wrap everything in BrowserRouter */}
@@ -16,6 +16,7 @@ const HeroSection: React.FC = () => {
         <Route path="/sign-in" element={<SignInPage />} />
         <Route path="/sign-Up" element={<SignUp />} />
         <Route path="/user-profile" element={<UserProfile />} />
+        <Route path="/Classics" element={<ClassicsPage />} />
       </Routes>
     </Router>
   );
