@@ -22,6 +22,7 @@ export default defineConfig({
         BookProfile: resolve(root,'BookProfile','index.html'),
         PdfReader: resolve(root,'ReadeBook','index.html'),
         ShoppingCart: resolve(root,'Cart','index.html'),
+        BookClub: resolve(root,'BookClub','index.html'),
       }
     }
   }
