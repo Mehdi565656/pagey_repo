@@ -23,6 +23,7 @@ export default defineConfig({
         PdfReader: resolve(root,'ReadeBook','index.html'),
         ShoppingCart: resolve(root,'Cart','index.html'),
         BookClub: resolve(root,'BookClub','index.html'),
+        AudioBook: resolve(root,'AudioBook','index.html'),
       }
     }
   }
