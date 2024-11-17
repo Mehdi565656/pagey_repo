@@ -19,6 +19,7 @@ export default defineConfig({
         SignUp: resolve(root,'SignUp','index.html'),
         UserProfile: resolve(root,'UserProfile','index.html'),
         ClassicsPage: resolve(root,'ClassicsPage','index.html'),
+        BookProfile: resolve(root,'BookProfile','index.html'),
       }
     }
   }

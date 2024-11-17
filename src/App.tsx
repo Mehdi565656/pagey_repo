@@ -6,6 +6,8 @@ import SignInPage from './Signin/SignInPage'
 import SignUp from './SignUp/SignUp'
 import UserProfile from './UserProfile/UserProfile'
 import ClassicsPage from './ClassicsPage/ClassicsPage'
+import BookProfile from './BookProfile/BookProfile'
+
 const HeroSection: React.FC = () => {
   return (
     <Router> {/* Wrap everything in BrowserRouter */}
@@ -17,6 +19,7 @@ const HeroSection: React.FC = () => {
         <Route path="/sign-Up" element={<SignUp />} />
         <Route path="/user-profile" element={<UserProfile />} />
         <Route path="/Classics" element={<ClassicsPage />} />
+        <Route path="/book-profile" element={<BookProfile />} />
       </Routes>
     </Router>
   );
