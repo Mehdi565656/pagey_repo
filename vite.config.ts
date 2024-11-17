@@ -17,6 +17,7 @@ export default defineConfig({
         BookLibrary: resolve(root,'BookLibrary','index.html'),
         SignIn: resolve(root,'Signin','index.html'),
         SignUp: resolve(root,'SignUp','index.html'),
+        ReadeBook: resolve(root, 'ReadeBook','index.html'),
 
       }
     }
