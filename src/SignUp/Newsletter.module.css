@@ -1,0 +1,81 @@
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 136px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content {
+    font-family: Poppins, sans-serif;
+    color: #000;
+    max-width: 580px;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .form {
+    font-family: Roboto, sans-serif;
+    max-width: 528px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 40px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .subscribeButton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 240px;
+    cursor: pointer;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  @media (max-width: 991px) {
+    .newsletter {
+      padding: 60px 20px;
+    }
+  
+    .content, .form {
+      max-width: 100%;
+    }
+  }
