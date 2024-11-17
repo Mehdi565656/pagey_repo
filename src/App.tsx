@@ -8,7 +8,7 @@ import UserProfile from './UserProfile/UserProfile'
 import ClassicsPage from './ClassicsPage/ClassicsPage'
 import BookProfile from './BookProfile/BookProfile'
 import PdfReader from './ReadeBook/PdfReader'
-
+import ShoppingCart from './Cart/ShoppingCart'
 const HeroSection: React.FC = () => {
   return (
     <Router> {/* Wrap everything in BrowserRouter */}
@@ -22,6 +22,7 @@ const HeroSection: React.FC = () => {
         <Route path="/Classics" element={<ClassicsPage />} />
         <Route path="/book-profile" element={<BookProfile />} />
         <Route path="/pdf-reader" element={<PdfReader />} />
+        <Route path="/my-cart" element={<ShoppingCart />} />
       </Routes>
     </Router>
   );

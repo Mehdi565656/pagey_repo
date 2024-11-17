@@ -21,6 +21,7 @@ export default defineConfig({
         ClassicsPage: resolve(root,'ClassicsPage','index.html'),
         BookProfile: resolve(root,'BookProfile','index.html'),
         PdfReader: resolve(root,'ReadeBook','index.html'),
+        ShoppingCart: resolve(root,'Cart','index.html'),
       }
     }
   }
