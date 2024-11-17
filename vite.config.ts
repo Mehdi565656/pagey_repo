@@ -17,6 +17,9 @@ export default defineConfig({
         BookLibrary: resolve(root,'BookLibrary','index.html'),
         SignIn: resolve(root,'Signin','index.html'),
         SignUp: resolve(root,'SignUp','index.html'),
+        Survey: resolve(root,'Survey','index.html'),
+        Bookform: resolve(root,'LibraryOwner','index.html'),
+        TradingSystem: resolve(root, 'TradingSystem', 'index.html'),
 
       }
     }

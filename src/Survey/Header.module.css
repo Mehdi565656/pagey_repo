@@ -1,0 +1,96 @@
+.header {
+    padding: 1rem 3.4375rem 0 0.5625rem;
+  }
+  
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    font-size: 3.125rem;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .headerActions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 9999px;
+    padding: 0.75rem 1rem;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .searchIcon,
+  .profileIcon,
+  .notificationIcon,
+  .cartIcon {
+    width: 1rem;
+    height: 1rem;
+    object-fit: contain;
+  }
+  
+  .profileIcon,
+  .notificationIcon,
+  .cartIcon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  .navigation {
+    margin-top: 1rem;
+  }
+  
+  .navList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6875rem;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .navItem {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.028125rem;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: inherit;
+    padding: 0 1.6875rem;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 1rem;
+    }
+  
+    .logo {
+      font-size: 2.5rem;
+    }
+  
+    .navList {
+      gap: 1rem;
+    }
+  
+    .navLink {
+      padding: 0 1rem;
+    }
+  }
