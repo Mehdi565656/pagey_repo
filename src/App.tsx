@@ -34,6 +34,7 @@ const HeroSection: React.FC = () => {
         <Route path="/survey" element={<SurveyPage />} />
         <Route path="/trading" element={<TradingSystem />} />
         <Route path="/library-owner" element={<BookForm />} />
+        
 
 
       </Routes>
