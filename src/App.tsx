@@ -11,6 +11,10 @@ import PdfReader from './ReadeBook/PdfReader'
 import ShoppingCart from './Cart/ShoppingCart'
 import BookClub from './BookClub/BookClub'
 import AudioBookPage from './AudioBook/AudioBookPage'
+import SurveyPage from './Survey/SurveyPage'
+import TradingSystem from './TradingSystem/TradingSystem'
+import BookForm from './LibraryOwner/BookForm'
+
 const HeroSection: React.FC = () => {
   return (
     <Router> {/* Wrap everything in BrowserRouter */}
@@ -27,6 +31,10 @@ const HeroSection: React.FC = () => {
         <Route path="/my-cart" element={<ShoppingCart />} />
         <Route path="/book-club" element={<BookClub />} />
         <Route path="/audio-book" element={<AudioBookPage />} />
+        <Route path="/survey" element={<SurveyPage />} />
+        <Route path="/trading" element={<TradingSystem />} />
+        <Route path="/library-owner" element={<BookForm />} />
+
 
       </Routes>
     </Router>

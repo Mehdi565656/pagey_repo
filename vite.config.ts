@@ -24,6 +24,10 @@ export default defineConfig({
         ShoppingCart: resolve(root,'Cart','index.html'),
         BookClub: resolve(root,'BookClub','index.html'),
         AudioBook: resolve(root,'AudioBook','index.html'),
+        SurveyPage: resolve(root,'Survey','index.html'),
+        TradingSystem: resolve(root,'TradingSystem','index.html'),
+        BookForm: resolve(root,'LibraryOwner','index.html'),
+
       }
     }
   }
