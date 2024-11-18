@@ -4,9 +4,8 @@ import Home from './Home'; // Example Home component
 import BookLibrary from './BookLibrary/BookLibrary'; // Example BookLibrary component
 import SignInPage from './Signin/SignInPage'
 import SignUp from './SignUp/SignUp'
-import SurveyForm from './Survey/SurveyForm';
-import BookForm from './LibraryOwner/BookForm'
-import TradingSystem from './TradingSystem/TradingSystem';
+import UserProfile from './UserProfile/UserProfile'
+import ClassicsPage from './ClassicsPage/ClassicsPage'
 const HeroSection: React.FC = () => {
   return (
     <Router> {/* Wrap everything in BrowserRouter */}
@@ -16,9 +15,8 @@ const HeroSection: React.FC = () => {
         <Route path="/book-library" element={<BookLibrary />} />
         <Route path="/sign-in" element={<SignInPage />} />
         <Route path="/sign-Up" element={<SignUp />} />
-        <Route path="/survey" element={<SurveyForm />} />
-        <Route path="/bookform" element={<BookForm />} />
-        <Route path="/tradingsystem" element={<TradingSystem />} />
+        <Route path="/user-profile" element={<UserProfile />} />
+        <Route path="/Classics" element={<ClassicsPage />} />
       </Routes>
     </Router>
   );
