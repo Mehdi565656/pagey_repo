@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './BookClub.module.css';
-import Header from './Header';
+import Header from '../Header/Header';
 import Navigation from './Navigation';
 import BookTitle from './BookTitle';
 import ChatSection from './ChatSection';
-import NewsletterSection from './NewsletterSection';
-import Footer from './Footer';
+import Newsletter from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const BookClub: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const BookClub: React.FC = () => {
       <button className={styles.chatButton}>Hello</button>
       <ChatSection />
       <button className={styles.chatButton}>Sup</button>
-      <NewsletterSection />
+      <Newsletter />
       <Footer />
     </div>
   );

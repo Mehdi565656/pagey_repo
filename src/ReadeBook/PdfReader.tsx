@@ -1,16 +1,14 @@
 import React from 'react';
 import styles from './PdfReader.module.css';
-import Header from './Header';
-import Navigation from './Navigation';
+import Header from '../Header/Header';
 import ScanDialog from './ScanDialog';
 import BookCard from './BookCard';
-import Footer from './Footer';
+import Footer from '../Footer/Footer';
 
 const PdfReader: React.FC = () => {
   return (
     <div className={styles.container}>
       <Header />
-      <Navigation />
       <h2 className={styles.sectionTitle}>PDF reading</h2>
       <ScanDialog />
       <h2 className={styles.sectionTitle}>Your Scanned Books</h2>

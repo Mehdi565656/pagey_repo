@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './BookDetails.module.css';
-import Header from './Header';
+import Header from '../Header/Header';
 import BookInfo from './BookInfo';
 import Overview from './Overview';
 import Reviews from './Reviews';
 import AuthorProductDetails from './AuthorProductDetails';
 import RelatedBooks from './RelatedBooks';
-import Newsletter from './Newsletter';
-import Footer from './Footer';
+import Newsletter from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const BookProfile: React.FC = () => {
   return (
