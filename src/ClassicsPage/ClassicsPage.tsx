@@ -8,8 +8,9 @@ import styles from './ClassicsPage.module.css';
 
 const ClassicsPage: React.FC = () => {
   return (
-    <div className={styles.classicsPage}>
+    <div >
       <Header />
+      <div className={styles.classicsPage}>
       <main className={styles.mainContent}>
         <h1 className={styles.pageTitle}>
           <span className={styles.titleLine}></span>
@@ -19,6 +20,7 @@ const ClassicsPage: React.FC = () => {
         <BookGrid />
         <Pagination />
       </main>
+      </div>
       <Newsletter />
       <Footer />
     </div>
