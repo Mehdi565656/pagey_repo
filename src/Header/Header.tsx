@@ -2,38 +2,38 @@ import React from 'react';
 import styles from './Header.module.css';
 
 const Header: React.FC = () => {
+  const navItems = [
+    'Books', 'Fiction', 'Nonfiction', 'eBooks', 'Audiobooks',
+    'Teens & YA', 'Kids', 'Toys & Games', 'Stationery & Gifts','Music & Movies'
+  ];
+
   return (
     <header className={styles.header}>
       <div className={styles.topBar}>
-        <h1 className={styles.logo}>
-          <a href="#" className={styles.logo}>
-            Pagey
-            </a>
-        </h1>
+        <h1 className={styles.logo}>Pagey</h1>
         <div className={styles.userActions}>
           <form className={styles.searchForm} role="search">
-            <label htmlFor="searchInput" className={styles.visuallyHidden}>Search</label>
-            <input type="search" id="searchInput" className={styles.searchInput} placeholder="Search" />
-            <button type="submit" className={styles.searchButton}>
-              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/157131bb5cb1140c43a0b2e041e03237dd8b8f2a936759eecad80b97ca143452?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="Search" className={styles.searchIcon} />
+            <input type="search" id="search" className={styles.searchInput} placeholder="Search" />
+            <button type="submit" className={styles.searchButton} aria-label="Submit search">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d08929509878e10a610133339c7b5249869905f38d81364d31c5a9e8434c2c2a?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="" className={styles.searchIcon} />
             </button>
           </form>
-          <button className={styles.iconButton}>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/54eca844053b3614adc06bca7ab9c522c29209c0b6487e8477a0fa0416ec6187?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="User profile" className={styles.userIcon} />
+          <button className={styles.iconButton} aria-label="User profile">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/97912ab42c0bc71a14d9ea1b97bf0c97dfb5ea80766eb18c13d2fafb89107644?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="" className={styles.userIcon} />
           </button>
-          <button className={styles.iconButton}>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6c270436b62ac50a8b054f3d50292c7afac0df3bf6e0221c8e694b8909f90e4d?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="Wishlist" className={styles.wishlistIcon} />
+          <button className={styles.iconButton} aria-label="Notifications">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a14411436f1f1df6a183c08c0cba8d43624cb93d5090af66c799bb5d271a1ce8?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="" className={styles.notificationIcon} />
           </button>
-          <button className={styles.iconButton}>
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c2e0fa5fa9c45eddcda1867d829f4f063beebff5d56909f8fcdf9285d002ab3?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="Shopping cart" className={styles.cartIcon} />
+          <button className={styles.iconButton} aria-label="Shopping cart">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c2e0fa5fa9c45eddcda1867d829f4f063beebff5d56909f8fcdf9285d002ab3?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="" className={styles.cartIcon} />
           </button>
         </div>
       </div>
       <nav className={styles.mainNav}>
         <ul className={styles.navList}>
-          {['Books', 'Fiction', 'Nonfiction', 'eBooks', 'Audiobooks', 'Teens & YA', 'Kids', 'Toys & Games', 'Stationery & Gifts', 'Music & Movies'].map((item, index) => (
+          {navItems.map((item, index) => (
             <li key={index} className={styles.navItem}>
-              <a href={`#${item.toLowerCase().replace(/\s+/g, '-')}`} className={styles.navLink}>{item}</a>
+              <a href="#" className={styles.navLink}>{item}</a>
             </li>
           ))}
         </ul>

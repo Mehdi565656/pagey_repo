@@ -1,11 +1,13 @@
 .signInPage {
     display: flex;
     flex-direction: column;
-    font-family: Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    font-family: Poppins;
   }
   
   .header {
-    padding: 19px 55px 0 9px;
+    padding: 0px 50px 0 19px;
+    margin: 1px 9px 10px 1px;
+
   }
   
   .topBar {
@@ -15,9 +17,15 @@
   }
   
   .logo {
-    font-size: 50px;
-    font-weight: 400;
+    width: 140.892px;
+    height: 61.473px;
+    flex-shrink: 0;
     color: #000;
+    font-family: Outfit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
   
   .userActions {
@@ -62,7 +70,7 @@
   .mainNav {
     display: flex;
     justify-content: space-between;
-    margin-top: 72px;
+    margin-top: 50px;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.45px;
@@ -77,7 +85,7 @@
   }
   
   .navItem {
-    padding: 0 27px;
+    padding: 0 25.5px;
   }
   
   .navLink {
@@ -341,3 +349,15 @@
       padding: 40px 20px;
     }
   }
+
+  @font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  }
+
+  

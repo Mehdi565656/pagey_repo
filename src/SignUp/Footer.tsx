@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
-      <div className={styles.container}>
+      <div className={styles.footerContent}>
         <p className={styles.copyright}>© 2024 Pagey. All Rights Reserved</p>
         <nav className={styles.footerNav}>
           <a href="#" className={styles.footerLink}>Privacy Policy</a>

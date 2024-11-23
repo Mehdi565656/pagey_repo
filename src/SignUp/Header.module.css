@@ -1,91 +1,122 @@
 .signInPage {
-    display: flex;
-    flex-direction: column;
-    font-family: Poppins, -apple-system, Roboto, Helvetica, sans-serif;
-  }
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+}
+
 .header {
-    padding: 19px 55px 0 9px;
-    display: flex;
-    flex-direction: column;
-    font-family: Poppins, -apple-system, Roboto, Helvetica, sans-serif;
-  }
+  padding: 0px 50px 0 19px;
+  margin: 1px 10px 70px 1px;
+
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 140.892px;
+  height: 61.473px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Outfit;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  padding: 12px 16px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex-grow: 1;
+}
+
+.searchButton,
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.searchIcon,
+.userIcon,
+.notificationIcon,
+.cartIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.45px;
+}
+
+.navList {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.navItem {
+  font-family: Poppins;
+  padding: 0 25.5px;
+}
+
+.navLink {
+  color: #000;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
   .header {
-    padding: 19px 55px 0 9px;
+    padding-right: 20px;
   }
-  
-  .topBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
+
   .logo {
-    font-size: 50px;
-    font-weight: 400;
-    color: #000;
+    font-size: 40px;
   }
-  
-  .userActions {
-    display: flex;
-    align-items: center;
-    gap: 26px;
-  }
-  
-  .searchForm {
-    display: flex;
-    align-items: center;
-    border-radius: 9999px;
-    background-color: #fff;
-    border: 1px solid #d9d9d9;
-    padding: 12px 16px;
-  }
-  
-  .searchInput {
-    border: none;
-    outline: none;
-    background: transparent;
-    flex-grow: 1;
-  }
-  
-  .searchButton,
-  .iconButton {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-  }
-  
-  .searchIcon,
-  .userIcon,
-  .notificationIcon,
-  .cartIcon {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-  }
-  
+
   .mainNav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 72px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.45px;
+    margin-top: 40px;
+    margin-right: 9px;
   }
-  
-  .navList {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-  }
-  
+
   .navItem {
-    padding: 0 27px;
+    padding: 0 20px;
+  }}
+  @font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
   }
-  
-  .navLink {
-    color: #000;
-    text-decoration: none;
+
+  @font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
   }

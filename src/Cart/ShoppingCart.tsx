@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './ShoppingCart.module.css';
-import Header from './Header';
+import Header from '../Header/Header';
 import ProductItem from './ProductItem';
 import OrderSummary from './OrderSummary';
-import Newsletter from './Newsletter';
-import Footer from './Footer';
+import Newsletter from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const ShoppingCart: React.FC = () => {
   return (
@@ -13,8 +13,7 @@ const ShoppingCart: React.FC = () => {
       <section className={styles.cartContent}>
         <h1 className={styles.cartTitle}>My Shopping Cart</h1>
         <div className={styles.cartDivider} />
-        <h2 className={styles.bookTitle}>Jungle Book</h2>
-        <p className={styles.bookAuthor}>by Mr.kesah</p>
+          
         <div className={styles.productList}>
           <ProductItem
             imageSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/55e9b6d8819806b36bece0ed0603b02425a4923babbe0c681110f81077568d67?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67"

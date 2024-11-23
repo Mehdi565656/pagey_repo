@@ -4,7 +4,7 @@ import styles from './SignInPage.module.css';
 const Header: React.FC = () => {
   const navItems = [
     'Books', 'Fiction', 'Nonfiction', 'eBooks', 'Audiobooks',
-    'Teens & YA', 'Kids', 'Toys & Games', 'Stationery & Gifts'
+    'Teens & YA', 'Kids', 'Toys & Games', 'Stationery & Gifts','Music & Movies'
   ];
 
   return (
@@ -38,7 +38,6 @@ const Header: React.FC = () => {
             </li>
           ))}
         </ul>
-        <a href="#" className={styles.navLink}>Music & Movies</a>
       </nav>
     </header>
   );

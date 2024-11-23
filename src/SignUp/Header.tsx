@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 const Header: React.FC = () => {
   const navItems = [
     'Books', 'Fiction', 'Nonfiction', 'eBooks', 'Audiobooks',
-    'Teens & YA', 'Kids', 'Toys & Games', 'Stationery & Gifts'
+    'Teens & YA', 'Kids', 'Toys & Games', 'Stationery & Gifts','Music & Movies'
   ];
 
   return (
@@ -13,7 +13,6 @@ const Header: React.FC = () => {
         <h1 className={styles.logo}>Pagey</h1>
         <div className={styles.userActions}>
           <form className={styles.searchForm} role="search">
-            <label htmlFor="search" className={styles.visuallyHidden}>Search</label>
             <input type="search" id="search" className={styles.searchInput} placeholder="Search" />
             <button type="submit" className={styles.searchButton} aria-label="Submit search">
               <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d08929509878e10a610133339c7b5249869905f38d81364d31c5a9e8434c2c2a?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67" alt="" className={styles.searchIcon} />
@@ -38,7 +37,6 @@ const Header: React.FC = () => {
             </li>
           ))}
         </ul>
-        <a href="#" className={styles.navLink}>Music & Movies</a>
       </nav>
     </header>
   );

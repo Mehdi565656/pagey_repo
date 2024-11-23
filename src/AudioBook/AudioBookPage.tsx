@@ -1,16 +1,14 @@
 import React from 'react';
 import styles from './AudioBookPage.module.css';
-import Header from './Header';
-import Navigation from './Navigation';
+import Header from '../Header/Header';
 import AudioPlayer from './AudioPlayer';
-import NewsletterForm from './NewsletterForm';
-import Footer from './Footer';
+import NewsletterForm from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const AudioBookPage: React.FC = () => {
   return (
     <main className={styles.audioBookPage}>
       <Header />
-      <Navigation />
       <section className={styles.bookContent}>
         <div className={styles.bookInfo}>
           <h1 className={styles.bookTitle}>Jungle Book</h1>

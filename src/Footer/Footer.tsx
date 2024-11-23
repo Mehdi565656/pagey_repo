@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
       <div className={styles.footerContent}>
         <p className={styles.copyright}>© 2024 Pagey. All Rights Reserved</p>
         <nav className={styles.footerNav}>
-          <a href="/privacy" className={styles.footerLink}>Privacy Policy</a>
-          <a href="/contact" className={styles.footerLink}>Contact Us</a>
+          <a href="#" className={styles.footerLink}>Privacy Policy</a>
+          <a href="#" className={styles.footerLink}>Contact Us</a>
         </nav>
       </div>
     </footer>

@@ -1,81 +1,90 @@
 .newsletter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 136px;
-    position: relative;
-    overflow: hidden;
-  }
+  font-family: Poppins;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 136px;
+  margin-top: 196px;
+  overflow: hidden;
+}
+
+.newsletterContent {
+  max-width: 580px;
+}
+
+.newsletterTitle {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.newsletterDescription {
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.newsletterForm {
+  width: 528px;
+}
+
+.subscribeButton {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 240px;
+  margin-top: 40px;
+}
+
+.newsletterBackground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+@media (max-width: 991px) {
   
-  .content {
-    font-family: Poppins, sans-serif;
-    color: #000;
-    max-width: 580px;
+  .newsletter {
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-top: 40px;
   }
-  
-  .title {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 24px;
-  }
-  
-  .description {
-    font-size: 16px;
-    font-weight: 400;
-  }
-  
-  .form {
-    font-family: Roboto, sans-serif;
-    max-width: 528px;
-  }
-  
-  .inputGroup {
-    margin-bottom: 40px;
-  }
-  
-  .label {
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 4px;
-  }
-  
-  .input {
+
+  .newsletterContent,
+  .newsletterForm {
     width: 100%;
-    padding: 8px 12px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    font-size: 14px;
+    max-width: 100%;
   }
+
   
-  .subscribeButton {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 12px;
-    font-size: 16px;
-    font-weight: 500;
-    width: 240px;
-    cursor: pointer;
-  }
-  
-  .backgroundImage {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: -1;
-  }
-  
-  @media (max-width: 991px) {
-    .newsletter {
-      padding: 60px 20px;
-    }
-  
-    .content, .form {
-      max-width: 100%;
-    }
-  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+  color: #666;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
