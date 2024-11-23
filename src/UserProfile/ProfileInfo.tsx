@@ -22,20 +22,15 @@ const ProfileInfo: React.FC = () => {
           </div>
           <div className={styles.formField}>
             <label htmlFor="username" className={styles.formLabel}>Username</label>
-            <input type="text" id="username" className={styles.formInput} placeholder="Country" />
+            <input type="text" id="username" className={styles.formInput} placeholder="username" />
           </div>
         </div>
         <div className={styles.formRow}>
           <div className={styles.formField}>
             <label htmlFor="gender" className={styles.formLabel}>Gender</label>
             <select id="gender" className={styles.formSelect}>
-              <option value="">Select gender</option>
-            </select>
-          </div>
-          <div className={styles.formField}>
-            <label htmlFor="country" className={styles.formLabel}>Country</label>
-            <select id="country" className={styles.formSelect}>
-              <option value="">Select country</option>
+              <option value="">Male</option>
+              <option value="">Female</option>
             </select>
           </div>
         </div>
@@ -43,7 +38,9 @@ const ProfileInfo: React.FC = () => {
           <div className={styles.formField}>
             <label htmlFor="languages" className={styles.formLabel}>Languages</label>
             <select id="languages" className={styles.formSelect}>
-              <option value="">Select languages</option>
+              <option value="">English</option>
+              <option value="">French</option>
+              <option value="">العربية</option>
             </select>
           </div>
           <div className={styles.formField}>

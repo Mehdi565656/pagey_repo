@@ -1,12 +1,9 @@
-.signInPage {
-  display: flex;
-  flex-direction: column;
-  font-family: Poppins;
-}
-
 .header {
   padding: 0px 50px 0 19px;
   margin: 1px 10px 70px 1px;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
 
 }
 
@@ -113,10 +110,10 @@
   }}
   @font-face {
     font-family: 'Outfit';
-    src: url('./assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+    src: url('./assets/Outfit-VariableFont_wght.ttf') format('truetype');
   }
 
   @font-face {
     font-family: 'Poppins';
-    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    src: url('./assets/Poppins-Regular.ttf') format('truetype');
   }

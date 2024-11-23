@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../Header/Header';
 import CreateAccount from './CreateAccount';
-import Newsletter from './Newsletter';
-import Footer from './Footer';
+import Newsletter from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const SignUp: React.FC = () => {
   

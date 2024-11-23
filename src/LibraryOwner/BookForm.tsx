@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './BookForm.module.css';
 import { InputField } from './InputField';
-import Header from '../SignUp/Header'
-import Footer from '../SignUp/Footer';
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer';
 interface BookFormProps {}
 
 export const BookForm: React.FC<BookFormProps> = () => {

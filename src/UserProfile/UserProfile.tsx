@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './UserProfile.module.css';
-import Header from './Header';
+import Header from '../Header/Header';
 import ProfileInfo from './ProfileInfo';
 import LastVisited from './LastVisited';
 import SavedBooks from './SavedBooks';
-import Newsletter from './NewsLetter';
-import Footer from './Footer';
+import Newsletter from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const UserProfile: React.FC = () => {
   return (
