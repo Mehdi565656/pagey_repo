@@ -28,9 +28,7 @@
   }
   
   @media (max-width: 991px) {
-    .mainContent {
-      padding: 1rem;
-    }
+    
   
     .pageTitle {
       font-size: 1.75rem;

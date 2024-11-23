@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './TradingSystem.module.css';
-import Header from './Header';
+import Header from '../Header/Header';
 import BookSection from './BookSection';
-import Newsletter from './Newsletter';
-import Footer from './Footer';
+import Newsletter from '../NewsLetter/NewsLetter';
+import Footer from '../Footer/Footer';
 
 const TradingSystem: React.FC = () => {
   return (
