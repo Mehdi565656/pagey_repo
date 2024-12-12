@@ -34,9 +34,10 @@ const SignInForm: React.FC = () => {
         <p className={styles.termsText}>
           By continuing, you agree to the <a href="#" className={styles.link}>Terms of use</a> and <a href="#" className={styles.link}>Privacy Policy</a>.
         </p>
-        <button type="submit" className={styles.signInButton}>Log in as a reader</button>
+        <button type="submit" className={styles.signInButton}><a href="/" className={styles.createhref}>Log in as a reader</a></button>
+        <button type="submit" className={styles.libraryOwnerButton}>Log in as a library owner</button>
       </form>
-      <button className={styles.libraryOwnerButton}>Log in as a library owner</button>
+      
       <div className={styles.helpLinks}>
         <a href="#" className={styles.link}>Other issue with sign in</a>
         <a href="#" className={styles.link}>Forget your password</a>
@@ -46,7 +47,7 @@ const SignInForm: React.FC = () => {
         <span className={styles.dividerText}>New to our community</span>
         <span className={styles.dividerLine}></span>
       </div>
-      <button className={styles.createAccountButton}>Create an account</button>
+      <button className={styles.createAccountButton}><a href="/Sign-up" className={styles.createhref}>Create an account</a></button>
     </section>
   );
 };

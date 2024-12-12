@@ -6,86 +6,9 @@
     overflow: hidden;
   }
   
-  .header {
-    width: 100%;
-    max-width: 1347px;
-  }
   
-  .topBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   
-  .logo {
-    color: #000;
-    font: 400 50px Outfit, sans-serif;
-  }
   
-  .searchContainer {
-    display: flex;
-    align-items: center;
-    gap: 26px;
-  }
-  
-  .searchForm {
-    display: flex;
-    align-items: center;
-  }
-  
-  .searchInput {
-    border-radius: 9999px;
-    background-color: #fff;
-    border: 1px solid #d9d9d9;
-    padding: 12px 16px;
-    min-height: 39px;
-    width: 200px;
-  }
-  
-  .searchButton {
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .searchIcon,
-  .userIcon,
-  .notificationIcon,
-  .cartIcon {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-  }
-  
-  .mainNav {
-    margin-top: 72px;
-  }
-  
-  .navList {
-    display: flex;
-    gap: 27px;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .navItem {
-    color: #000;
-    text-decoration: none;
-    font: 600 16px/1 Poppins, sans-serif;
-    letter-spacing: 0.45px;
-  }
-  
-  .heroSection {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 115px;
-  }
-  
-  .heroTitle {
-    color: #000;
-    font: 600 40px/1.4 Poppins, -apple-system, Roboto, Helvetica, sans-serif;
-  }
   
   .filterButton {
     background-color: #2c3e50;
@@ -103,11 +26,7 @@
     margin-top: 167px;
   }
   
-  .sectionHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+ 
   
   .sectionTitle {
     color: #21282d;
@@ -193,107 +112,12 @@
     margin-top: 23px;
   }
   
-  .newsletter {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1347px;
-    padding: 60px 128px;
-    margin-top: 180px;
-    overflow: hidden;
-  }
   
-  .newsletterContent {
-    max-width: 580px;
-  }
   
-  .newsletterTitle {
-    font: 700 40px/1.2 Poppins, sans-serif;
-    color: #000;
-  }
+ 
   
-  .newsletterDescription {
-    font: 400 16px/1.5 Poppins, sans-serif;
-    color: #000;
-    margin-top: 24px;
-  }
-  
-  .newsletterForm {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  
-  .inputGroup {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .inputLabel {
-    color: #000;
-    font: 500 14px/1 Roboto, sans-serif;
-    margin-bottom: 4px;
-  }
-  
-  .emailInput {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-    padding: 8px 12px;
-    font: 400 14px/1 Roboto, sans-serif;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .subscribeButton {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 12px;
-    font: 500 16px/1 Roboto, sans-serif;
-    cursor: pointer;
-    width: 240px;
-  }
-  
-  .newsletterBackground {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-  }
-  
-  .footer {
-    width: 100%;
-    padding: 69px 60px;
-    text-align: center;
-    font: 400 20px/28px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
-    color: #000;
-  }
-  
-  .footerContent {
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-    flex-wrap: wrap;
-  }
-  
-  .copyright {
-    flex-basis: 360px;
-  }
-  
-  .footerNavList {
-    display: flex;
-    gap: 60px;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .footerNavLink {
-    color: #000;
-    text-decoration: none;
-  }
+ 
+ 
   
   .visuallyHidden {
     position: absolute;
@@ -307,22 +131,10 @@
     border: 0;
   }
   
-  @media (max-width: 991px) {
-    .header,
-    .bookSection,
-    .trendingSubjects,
-    .newsletter {
-      max-width: 100%;
-    }
   
-    .logo {
-      font-size: 40px;
-    }
   
-    .mainNav {
-      margin-top: 40px;
-    }
-  
+   
+    
     .heroSection {
       margin-top: 40px;
       flex-direction: column;
@@ -351,28 +163,8 @@
       grid-template-columns: repeat(2, 1fr);
     }
   
-    .newsletter {
-      flex-direction: column;
-      padding: 40px 20px;
-      margin-top: 40px;
-    }
+    
   
-    .newsletterContent,
-    .newsletterForm {
-      max-width: 100%;
-    }
+   
   
-    .footer {
-      padding: 40px 20px;
-    }
-  
-    .footerContent {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .footerNavList {
-      flex-direction: column;
-      gap: 10px;
-    }
-  }
+   

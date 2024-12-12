@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './BookClub.module.css';
 import Header from '../Header/Header';
-import Navigation from './Navigation';
 import BookTitle from './BookTitle';
 import ChatSection from './ChatSection';
 import Newsletter from '../NewsLetter/NewsLetter';
@@ -11,10 +10,9 @@ const BookClub: React.FC = () => {
   return (
     <div className={styles.bookClub}>
       <Header />
-      <Navigation />
       <BookTitle />
       <button className={styles.chatButton}>Hello</button>
-      <ChatSection />
+      <ChatSection /> 
       <button className={styles.chatButton}>Sup</button>
       <Newsletter />
       <Footer />

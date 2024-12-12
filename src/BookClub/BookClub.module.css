@@ -162,18 +162,30 @@
   }
   
   .titleDivider {
-    align-self: stretch;
-    width: 480px;
-    max-width: 100%;
-    height: 1px;
-    margin: auto 0;
-    border: 1px solid #000;
+    display: flex;
+  align-items: center;
+  width: 100%; /* Full width of the container or screen */
   }
+.titleDivider::before,
+.titleDivider::after {
+  content: '';
+  flex: 1; /* Makes the lines stretch equally on both sides */
+  height: 1px; /* Thickness of the line */
+  background-color: #000; /* Line color */
+}
   
   .titleText {
-    align-self: stretch;
-    flex-grow: 1;
-    width: 216px;
+    
+    display: flex;
+    margin: 0 10px;
+    width: 100%;
+    padding-left: 42%;
+    max-width: 1338px;
+    align-items: center;
+    gap: 40px 44px;
+    color: #000;
+    letter-spacing: -1px;
+    font: 700 50px/1.2 Inria Serif, -apple-system, Roboto, Helvetica, sans-serif;
   }
   
   @media (max-width: 991px) {

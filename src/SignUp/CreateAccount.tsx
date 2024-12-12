@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './CreateAccount.module.css';
-
 const CreateAccount: React.FC = () => {
   return (
     <section className={styles.createAccount}>
       <h2 className={styles.title}>Create an account</h2>
       <form className={styles.form}>
         <p className={styles.loginPrompt}>
-          Already have an account? <a href="#" className={styles.loginLink}>Log in</a>
+          Already have an account? <a href="/Sign-in" className={styles.loginLink}>Log in</a>
         </p>
         <div className={styles.inputGroup}>
           <label htmlFor="username" className={styles.label}>User name</label>

@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
         <p className={styles.heroDescription}>Your Next Chapter Begins Here</p>
         
         <button className={styles.ctaButton}>
-          <a href="/book-library/">
+          <a href="/book-library/" className={styles.createhref}>
           Explore Books
           </a>
         </button>
