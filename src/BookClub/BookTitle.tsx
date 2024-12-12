@@ -4,12 +4,13 @@ import styles from './BookClub.module.css';
 const BookTitle: React.FC = () => {
   return (
     <>
-      <div className={styles.bookTitle}>
-        <div className={styles.titleDivider} />
-        <h2 className={styles.titleText}>Jungle Book</h2>
-        <div className={styles.titleDivider} />
+      
+      <div className={styles.titleDivider}>
+        <span className={styles.titleText}>Your Title</span>
       </div>
+
       <p className={styles.authorName}>by Mr.kesah</p>
+      
     </>
   );
 };

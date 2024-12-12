@@ -24,8 +24,8 @@ const Book: React.FC<BookProps> = ({ cover, tag, title, author }) => (
 const FeaturedBooks: React.FC = () => {
   const books = [
     { cover: "https://cdn.builder.io/api/v1/image/assets/TEMP/565d2c6ac304b15c183a348d84e49e94b344600fea82412ef5f066591c62b628?placeholderIfAbsent=true&apiKey=c06234bf7af94025a702ef198e05be67", tag: "Bestseller", title: "The Alchemist", author: "Paulo Coelho" },
-    { cover: "placeholder.jpg", tag: "Classic", title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
-    { cover: "placeholder.jpg", tag: "Modern Classic", title: "To Kill a Mockingbird", author: "Harper Lee" },
+    { cover: "../assets/TGG.jpg", tag: "Classic", title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
+    { cover: "../assets/TKAM.jpg", tag: "Modern Classic", title: "To Kill a Mockingbird", author: "Harper Lee" },
   ];
 
   return (
